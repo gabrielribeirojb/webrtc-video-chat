@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='https://cdn.scaledrone.com/scaledrone.min.js'></script>   
     <title>Sistema video-chat</title>
-    <link src="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     
@@ -14,8 +14,8 @@
         <h2>Bem vido ao nosso chat em tempo real</h2>
     </div><!--welcome-->
 
-    <video id="localVideo"></video>
-    <video id="remoteVideo"></video>
+    <video id="localVideo" autoplay muted></video>
+    <video id="remoteVideo" autoplay muted></video>
 
     <script>
         //Inicio scaledrone e WebRTC

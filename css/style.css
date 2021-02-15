@@ -1,3 +1,25 @@
-#remoteVideo{
-   display: none;
+.welcome{
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 24px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+video{
+    max-width: calc(50% - 100px);
+    margin: 0 50px;
+    box-sizing: border-box;
+    border: 2px;
+    padding: 0;
+    border: 1px solid #ccc;
 }
